@@ -1,0 +1,25 @@
+/* App */
+body {
+	font-family: Avenir, sans-serif;
+	background: #ECE3DA;
+	padding-left: 20%;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 60em) {
+	body {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
+
+summary {
+	outline: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
